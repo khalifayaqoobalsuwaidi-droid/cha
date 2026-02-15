@@ -87,3 +87,4 @@ export function initChat({ getRoom }) {
 
   return { send, switchRoom };
 }
+window.sendMessage = send;
